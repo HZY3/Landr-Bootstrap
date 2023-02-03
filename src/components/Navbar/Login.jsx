@@ -10,7 +10,7 @@ import logo from './assets/logo.jpg'
 
 function Login() {
     return (
-        <div className='LoginPage FontSize'>
+        <div className='LoginPage'>
             <img src=""/>
             <p>Enter Private address</p>
             <input type="text" className='Login-Input-field'></input>
