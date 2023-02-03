@@ -1,0 +1,77 @@
+
+body{
+  margin: 0px;
+  padding: 0px;
+  align-items: center;
+  background-image: url("./assets/cityscape.png");
+  align-items: center;
+  font-family: 'Inconsolata', monospace;
+  color: #FAF9F6;
+  height: 10000px;
+}
+
+nav{
+  margin: 0px;
+  padding: 0px;
+  /* background-color: #0d1b2a;
+  box-shadow: #0d1b2a 0px 8px 24px; */
+  font: inherit;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: default;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  margin: 0px;
+  padding: 0px 0px 0px 20px;
+  
+}
+
+.Nav-Menu{
+  display: flex;
+  list-style-type:  none;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+li{
+  padding: 0px 25px;
+
+}
+
+/*Home-About section*/
+.Nav-MiddleMenu {
+  display: flex;
+  padding-top: 40px;
+  padding-right: 30px;
+}
+
+#Nav-LogIn{
+  padding: 40px 20px 0px 0px;
+}
+
+/* h1{
+  padding-top: 30px;
+  text-align: center;
+} */
+a:visited, a{
+  color: #FAF9F6;
+}
+
+.Nav-Menu {
+  height: 58px;
+  width: 100%;
+  position: fixed;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  transition: opacity .125s linear;
+}
+
+ .NavBar-Pos{
+  position: fixed;
+ }
