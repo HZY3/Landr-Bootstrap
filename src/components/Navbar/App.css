@@ -2,76 +2,107 @@
 body{
   margin: 0px;
   padding: 0px;
-  align-items: center;
-  background-image: url("./assets/cityscape.png");
-  align-items: center;
+  align-items: center !important;
+  background-color: #f2f2f2;
+  align-items: center !important;
   font-family: 'Inconsolata', monospace;
-  color: #FAF9F6;
-  height: 10000px;
+  color: #00072d;
+  height: 1500px;
+  font-family: Inconsolata, monospace !important;
 }
 
 nav{
-  margin: 0px;
-  padding: 0px;
+  margin: 0px !important;
+  padding: 0px !important;
   /* background-color: #0d1b2a;
   box-shadow: #0d1b2a 0px 8px 24px; */
-  font: inherit;
-  font-size: 20px;
-  font-weight: 700;
+  font: inherit !important;
+  font-size: 1.6vw !important;
+  font-weight: 700 !important;
   cursor: default;
+  font-family: Inconsolata, monospace !important;
 }
 
 img{
-  width: 100px;
-  height: 100px;
-  margin: 0px;
-  padding: 0px 0px 0px 20px;
-  
+  width: 5vw;
+  height: 5vw;
+  margin-left: 20px;
+  padding: 0px 0px 0px 0px;
+  align-items: center;
+
 }
 
-.Nav-Menu{
+
+a:visited, a, a:link, a:hover, a:active, a:focus{
+  color: #f2f2f2;
+}
+
+.Nav-Menu {
   display: flex;
-  list-style-type:  none;
+  align-items: center;
+  position: fixed;
   justify-content: space-between;
-  padding: 0px;
+  width: 100%;
+  height: 4.5vw;
+  padding: 0px 0px 0px 0px;
   margin: 0px;
-  
-}
-
-li{
-  padding: 0px 25px;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+  transition: opacity .125s linear;
+  list-style-type:  none;
+  opacity: 90%;
+  box-shadow: 0px 2px 5px #00072d;
+  background-color: #00072d;
 
 }
 
 /*Home-About section*/
 .Nav-MiddleMenu {
   display: flex;
-  padding-top: 40px;
-  padding-right: 30px;
+  opacity: 1;
+  align-items: center;
+  margin: 0px auto;
+
 }
 
 #Nav-LogIn{
-  padding: 40px 20px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  margin-right: 20px;
+  color: #00072d;
 }
 
-/* h1{
-  padding-top: 30px;
-  text-align: center;
-} */
-a:visited, a{
-  color: #FAF9F6;
+#Nav-Home, #Nav-Why, #Nav-About {
+  padding: 0px 25px;
+  word-spacing: -0.2vw;
+
 }
 
-.Nav-Menu {
-  height: 58px;
-  width: 100%;
-  position: fixed;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: 0.025em;
-  transition: opacity .125s linear;
+#Nav-Home{
+  padding-left: 130px;
 }
 
- .NavBar-Pos{
-  position: fixed;
- }
+.No-Underline {
+  text-decoration: none;
+}
+
+.Main-Login-Btn-Inner{
+  color: #00072d;
+  border: none;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+  width: 5vw;
+
+}
+
+
+.Main-Login-Btn-Outer, .Main-Login-Btn-Outer > a {
+  border: none;
+  font: inherit;
+  font-size: 0.9vw;
+  border-radius: 20px;
+  padding: 0.4vw 1vw;
+  color: #00072d; 
+  background-color: #f2f2f2;
+
+}

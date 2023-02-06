@@ -1,3 +1,7 @@
+@import url("http://fonts.googleapis.com/css?family=Inconsolata:400,300,700");
+
+
+
 /* :root {
   padding: 0px;
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
@@ -75,4 +79,10 @@ li{
   font-weight: bold;
 } */
 
+.No-Underline {
+  text-decoration: none;
+}
 
+.font-change {
+  font-family: 'Inconsolata', monospace !important;
+}
