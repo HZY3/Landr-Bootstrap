@@ -1,10 +1,45 @@
 
+.Login-Selector {
+
+}
 
 .LandSelector {
-    padding-top: 28vw;
+    padding-top: 7vw;
+    padding-bottom: 100vw;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    background-color: #ffffff !important;
+}
+
+.LandInspector {
+    background-color: #ffffff !important;
+    color: #00072d !important;
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px !important;
+    font-weight: 600 !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 10vw !important;
+    margin: 0vw 2vw !important;
+    font-weight: 800 !important;
+    font-size: 1.3vw !important;
+}
+
+.LandInspector:active, .LandInspector:active > a {
+    background-color: grey !important;
+    /* margin: 0vw 1vw !important; */
+}
+
+
+.LandInspector-Details-Input{
+    width: 35vw !important;
+    background-color: white !important;
+}
+
+.FullBtn{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px !important;
 
 
 }

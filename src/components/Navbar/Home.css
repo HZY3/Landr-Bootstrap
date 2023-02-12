@@ -4,7 +4,7 @@
     display: flex !important;
     flex-direction: column !important;
     align-items: center !important;
-
+    height: 1000px;
 
 }
 
@@ -15,11 +15,11 @@
 
 .Main-title{
     font-weight: 600;
-    width: 60% !important;
+    width: 70% !important;
     font-size: 4.5vw !important;
-    word-spacing: -15.2px;
-    letter-spacing: -0.2vw;
-    padding: 5px 0 0 0 !important;
+    /* word-spacing: -15.2px;
+    letter-spacing: -0.2vw; */
+    padding: 1vw 0 1vw 0 !important;
 }
 
 .Top-Main-title{
@@ -33,19 +33,112 @@
 .Home-Intro{
     font-weight: 400 !important;
     font-size: 1.4vw !important;
-    word-spacing: -0.2em !important; 
     /* padding: 10px 560px 0px 560px; */
     width: 105rem !important;
     line-height: 2.3vw;
+    text-shadow: 0px 0px 1px #00072d;
+    /* word-spacing: -0.2em !important;  */
+    
 }
 
 .Get-Started-Btn:hover, .Get-Started-Btn:active{
-    background-color: #5D2BFF;
-    color: white;
-    
-    box-shadow: 0px 2px 10px black ;
+    background-color: #a6e1fa !important;
+    border: -1px solid #adb5bd !important;;
+    transition: all 0.2s linear;
 }
+
+
+.Get-Started-Btn{
+    border: none !important;
+    border-radius: 20vw;
+    padding: 0.5vw 3.5vw;
+    margin-top: 0.5vw;
+    font-weight: 600;
+    font-size: 1.2vw;
+    color: #00072d !important;
+    background-color: #ffffff !important;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 11.3115px 40px 0px !important;
+    /* border: 2px solid currentColor;
+    border:-radius 3rem;
+    color: yellow;
+    font-family: roboto;
+    font-size: 4rem;
+    font-weight: 100;
+    overflow: hidden;
+    padding: 1rem 2rem;
+    position: relative;
+    text-decoration: none;
+    transition: .2s transform ease-in-out;
+    will-change: transform;
+    z-index: 0;
+} */
+/*
+.Get-Started-Btn::after{
+    background-color: yellow;
+    border-radius: 3rem;
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-100%, 0) rotate(10deg);
+    transform-origin: top left;
+    transition: .2s transform ease-out;
+    will-change: transform;
+    z-index: -1;
+}  
+ .Get-Started-Btn:hover::after{
+    transform: translate(0, 0);
+}
+
+.Get-Started-Btn:hover{
+    border: 2px solid transparent;
+    color: indigo;
+    transform: scale(1.05);
+    will-change: transform;
+    */
+}
+
 
 .LoginSelector{
     margin-top: 100px;
+}
+
+
+
+
+
+
+  .MetaMaskConnect {
+    margin-top: 10vw !important;
+    color: white;
+    background: -webkit-linear-gradient(left, #e5771b, #753d16);
+    background-size: 200% 200%;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    border-width: 1px;
+    padding: 13px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.2em;
+    width: auto !important;
+}
+
+
+.MetaMaskConnect:hover {
+background: -webkit-linear-gradient(left, #e5771b, #e5771b);
+}
+
+
+.address  {
+
+    margin-top: 10vw   !important;
+    background-color: #e5771b;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+
 }

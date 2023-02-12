@@ -1,0 +1,59 @@
+
+
+.LandSelector {
+    padding-top: 7vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+
+}
+
+  
+    
+.TopInfo{
+    font-weight: 400;
+    font-size: 1.5vw;
+    padding: 0vw 5vw;
+    margin-bottom: 3vw;
+
+}
+
+.TopInfoDemo{
+    font-weight: 400;
+    font-size: 1.5vw;
+    padding: 0vw 5vw;
+    margin-bottom: 0vw;
+}
+
+.LandRegistration {
+    background-color: white !important;
+    color: #00072d !important;
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px !important;
+    font-weight: 600 !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 10vw !important;
+    margin: 0vw 2vw !important;
+    font-weight: 800 !important;
+    font-size: 1.3vw !important;
+}
+
+.LandRegistration:active, .LandRegistration:active > a {
+    background-color: grey !important;
+    /* margin: 0vw 1vw !important; */
+}
+
+
+.LandRegistration-Details-Input{
+    width: 35vw !important;
+
+}
+
+.FullBtn{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px !important;
+
+
+}

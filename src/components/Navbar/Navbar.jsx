@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css'
 import logo from './assets/logo.jpg'
 import { Link } from 'react-router-dom'
-
+import "./Home.css"
 
 function Navbar() {
     return (
@@ -16,32 +16,36 @@ function Navbar() {
                 <link rel="stylesheet" href="./App.css" />
 
             </head>
-        
             <ul className="Nav-Menu font-change">
                 <img src= { logo } />
                 <div className='Nav-MiddleMenu'>
                     <li id='Nav-Home'>
                         <Link to='/' className='No-Underline'>Home</Link>
                     </li>
-                    <li id='Nav-Why'>
-                        <a href= "" className='No-Underline'>Why Blockchain?</a>
-                    </li>
+
+                    <Link to='/LandRegistration' className='Nav-MiddleMenu No-Underline'>
+                        <li id='Nav-Why'>
+                            <button className='Nav-MiddleMenu'>WHY BLOCKCHAIN</button>
+                        </li>
+                    </Link>
+
                     <li id='Nav-About'>
-                        <Link to='/loginselector' className='No-Underline'>About</Link>
+                        <a href= "" className='No-Underline'>About</a>
                     </li>
                 </div>
+
                     <li id='Nav-LogIn'>
-                    <button className='Main-Login-Btn-Outer'>
-                        <Link to='/login' className='Main-Login-Btn-Inner '>Login / Signup</Link>
+                    <Link to='/loginselector' className='No-Underline'>
+                    <button className='Main-Login-Btn-Outer'>Log-In / Sign-Up
+                        {/* <Link to='/login' className='Main-Login-Btn-Inner '>Login / Signup</Link> */}
                     </button>
+                    </Link>
                     {/* <Link to='/login' className='No-Underline'>Login / Signup</Link> */}
                     </li>
             </ul>
-
         </nav>
     )
 }
-
 
 
 export default Navbar

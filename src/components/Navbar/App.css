@@ -3,13 +3,24 @@ body{
   margin: 0px;
   padding: 0px;
   align-items: center !important;
-  background-color: #f2f2f2;
+  background-color: #f2f2f2 !important;
   align-items: center !important;
   font-family: 'Inconsolata', monospace;
-  color: #00072d;
+  color: #00072d !important;
   height: 1500px;
-  font-family: Inconsolata, monospace !important;
+  font-family: Work Sans,  !important;
+  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* .Meta{
+  padding-top: 10vw;
+  margin-top: 10vw;
+} */
 
 nav{
   margin: 0px !important;
@@ -33,10 +44,6 @@ img{
 }
 
 
-a:visited, a, a:link, a:hover, a:active, a:focus{
-  color: #f2f2f2;
-}
-
 .Nav-Menu {
   display: flex;
   align-items: center;
@@ -45,36 +52,48 @@ a:visited, a, a:link, a:hover, a:active, a:focus{
   width: 100%;
   height: 4.5vw;
   padding: 0px 0px 0px 0px;
+  width: 100%;
+  height: 4.5vw;
+  padding: 0px 0px 0px 0px;
   margin: 0px;
   text-transform: uppercase;
   letter-spacing: 0.025em;
   transition: opacity .125s linear;
   list-style-type:  none;
-  opacity: 90%;
+  opacity: 95%;
   box-shadow: 0px 2px 5px #00072d;
-  background-color: #00072d;
-
+  background-color: #000b2e;
+  z-index: 9999;
 }
 
 /*Home-About section*/
-.Nav-MiddleMenu {
+.Nav-MiddleMenu, .Nav-MiddleMenu:hover{
   display: flex;
   opacity: 1;
   align-items: center;
   margin: 0px auto;
+  border: none;
+  background-color: #000b2e;
+  color: white !important;
+  font-family: Inconsolata, monospace !important;
+  font-weight: 700;
 
 }
 
 #Nav-LogIn{
   padding: 0px 0px 0px 0px;
   margin-right: 20px;
-  color: #00072d;
+
 }
 
-#Nav-Home, #Nav-Why, #Nav-About {
+#Nav-Home, #Nav-Why, #Nav-About{
   padding: 0px 25px;
   word-spacing: -0.2vw;
 
+}
+
+#Nav-About > a, #Nav-Home > a ,#Nav-Why > a  {
+  color: #f2f2f2 !important;
 }
 
 #Nav-Home{
@@ -86,13 +105,20 @@ a:visited, a, a:link, a:hover, a:active, a:focus{
 }
 
 .Main-Login-Btn-Inner{
-  color: #00072d;
+  color: white !important;
   border: none;
   text-decoration: none;
   padding: 0px;
   margin: 0px;
   width: 5vw;
 
+}
+
+.Main-Login-Btn-Outer:hover{
+  background-color: #a6e1fa !important;
+
+  /* border-radius: 20vw; */
+  transition: all 0.2s linear;
 }
 
 
@@ -103,6 +129,6 @@ a:visited, a, a:link, a:hover, a:active, a:focus{
   border-radius: 20px;
   padding: 0.4vw 1vw;
   color: #00072d; 
-  background-color: #f2f2f2;
-
+  background-color: white !important;
+  color: #000b2e !important;
 }

@@ -81,6 +81,10 @@ li{
 
 .No-Underline {
   text-decoration: none;
+<<<<<<< HEAD
+  border: none !important;
+=======
+>>>>>>> e814fc15b9e3ee9d0e1d46cf99f8a71774ff5056
 }
 
 .font-change {
